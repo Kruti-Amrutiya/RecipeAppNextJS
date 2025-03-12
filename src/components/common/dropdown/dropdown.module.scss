@@ -1,0 +1,31 @@
+.ant-form-item-has-error {
+  .custom-select-box {
+    > div {
+      > div {
+        border-color: red;
+      }
+    }
+  }
+}
+
+.custom-dropdown.custom-select-box {
+  div {
+    &[class$="-control"] {
+      height: 46px;
+    }
+  }
+}
+.custom-dropdown.custom-select-box {
+  [class$="-menu"] {
+    z-index: 9;
+  }
+}
+.color-tables {
+  .custom-dropdown.custom-select-box {
+    div {
+      &[class$="-control"] {
+        height: auto;
+      }
+    }
+  }
+}
